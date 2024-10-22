@@ -20,8 +20,8 @@ cat <<EOL > .devcontainer/devcontainer.json
 {
     "name": "$REPO_NAME Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
-    "postStartCommand": "echo '*'; echo '*         @Spike_Magic Bot Running      *'; echo '*'; python /workspaces/$REPO_NAME/$(basename "$PYTHON_FILE")",
-    "postCreateCommand": "pip install pymongo python-telegram-bot pyTelegramBotAPI certifi && chmod +x /workspaces/$REPO_NAME/*",
+    "postStartCommand": "echo '*'; echo '*         @Spike_Magic Bot Running      *'; echo '*'; python /workspaces/ank/"JUPITER.py",
+    "postCreateCommand": "pip install pymongo python-telegram-bot pyTelegramBotAPI certifi && chmod +x /workspaces/ank/*",
     "customizations": {
         "vscode": {
             "settings": {
